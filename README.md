@@ -2,6 +2,7 @@
 RecipeShare App using Visual Studio
 # GlennisDevVisualStudio
 For Mac
+<br>
 [x] Install Visual Studio for Mac
 <br>
 [x] Install dotNet Core SDK for macOS
