@@ -17,6 +17,7 @@ namespace RecipeShare.Models
         [Required]
         public string Instructions { get; set; }
 
+        // will hold the directory to the image, not the image itself
         public string Image { get; set; }
 
         // for rating and comments of recipe
