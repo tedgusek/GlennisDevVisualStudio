@@ -1,6 +1,10 @@
 # GlennisDevVisualStudio
 RecipeShare App using Visual Studio
 # GlennisDevVisualStudio
+<br>
+DEV GUIDE
+<br>
+<br>
 For Mac
 <br>
 [x] Install Visual Studio for Mac
@@ -32,9 +36,16 @@ To Do List
 <br>
     [ ] Create CRUD actions for recipes
 <br>
-[ ] Create Controller to manage comments
+[ ] Create Controller to manage comments 
 <br>
-
+create new table for comments for each recipe, assign unique id number to each comment
+<br>
+[ ] Create Controller to manage titles
+<br>
+[ ] Create Controller to manage ratings / will be an average of all ratings
+<br>
+[ ] Create Controller to manage image directory
+<br>
 <br>
 [ ] Create corresponding actions for each action
 <br>
