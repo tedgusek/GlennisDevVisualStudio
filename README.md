@@ -28,13 +28,17 @@ To Do List
 <br>
 <strong>**Create Controllers and Views**
 <br>
-[ ] Create Controllers to manage recipes, Comments, images, ratings, and titles
+[ ] Create Controllers to manage recipes
 <br>
-[ ] Create CRUD actions for recipes
+    [ ] Create CRUD actions for recipes
+<br>
+[ ] Create Controller to manage comments
+<br>
+
 <br>
 [ ] Create corresponding actions for each action
 <br>
-<strong>**Implemnent Search Functionality
+**Implemnent Search Functionality**
 <br>
 [ ] Add search bar to listing view
 <br>
