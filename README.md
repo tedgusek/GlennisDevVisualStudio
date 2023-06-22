@@ -18,13 +18,13 @@ To Do List
 <br>
 [x] Set up SQL Server via Docker
 <br>
-[ ] Create Models
+[x] Create Models
 <br>
     [x] Recipe Model includes RecipeID, Title, Instructions, Image, Rating, and Comments
     <br>
-[ ] Connect to SQL Server
+[x] Connect to SQL Server
 <br>
-[ ] Use Recipe Class Model to define schema
+[x] Use Recipe Class Model to define schema
 <br>
 <strong>**Create Controllers and Views**
 <br>
