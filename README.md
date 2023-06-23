@@ -14,6 +14,36 @@ For Mac
 [x] Run SQL Server container via Docker
 <br>
 <br>
+Overview
+<br>
+Main Points
+<br>
+Requirements for Users:
+<br>
+•See and search all recipes-  This means we need to create a relational database to handle the individual recipes and their accompanying data (Read)
+<br>
+•Ability to add recipes, consists of Title, Instructions, and Image(Update); Here we need to decide to store actual image in the database or a reference to an external storage. For this particular exercise, I thought it would be better to access the images by reference, the trade off is that it makes for another transaction, but it will keep all of the images in another place keeping our database cleaner, and allowing to create functionality to resize images to be more uniform, in an abstracted way.
+<br>
+•Ability to rate and comment on individual recipes (Create); Store ratings in another table, create functionality to retrieve all ratings and get average, can store this in the Recipes Table for easy access.  Store Comments in its own table, and can be used to render when/where needed
+<br>
+•Ability to Edit recipes (Update); Create a request to the database endpoint to edit the recipe and save it in place.
+<br>
+<br>
+•Relational Database
+<br>
+	-Decided to make 3 Tables
+	<br>
+		•Recipes
+		<br>
+		•Comments
+		<br>
+		•Ratings
+<br>
+<br>
+Need to implement Search bar that can access recipes by keywords & ID’s
+<br>
+
+
 
 To Do List
 <br>

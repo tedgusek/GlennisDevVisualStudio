@@ -33,7 +33,7 @@ namespace RecipeShare.Controllers
 
         // POST: /Recipe/Create
         [HttpPost]
-        public IActionResult Create(Recipe recipe)
+        public IActionResult Create(Recipes recipe)
         {
             // Logic to create a new recipe based on the posted data
         }
@@ -46,7 +46,7 @@ namespace RecipeShare.Controllers
 
         // POST: /Recipe/Edit/{id}
         [HttpPost]
-        public IActionResult Edit(int id, Recipe recipe)
+        public IActionResult Edit(int id, Recipes recipe)
         {
             // Logic to update a specific recipe based on the posted data
         }

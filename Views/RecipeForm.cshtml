@@ -1,4 +1,4 @@
-﻿@model RecipeShare.Models.Recipe
+﻿@model RecipeShare.Models.Recipes
 
 <h2>Create Recipe</h2>
 
@@ -25,16 +25,16 @@
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.Ratings)
-        @Html.TextBoxFor(model => model.Ratings, new { @class = "form-control" })
-        @Html.ValidationMessageFor(model => model.Ratings)
+        @Html.LabelFor(model => model.RatingsAverage)
+        @Html.TextBoxFor(model => model.RatingsAverage, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.RatingsAverage)
     </div>
 
-    <div class="form-group">
+    @*<div class="form-group">
         @Html.LabelFor(model => model.Comments)
         @Html.TextAreaFor(model => model.Comments, new { @class = "form-control" })
         @Html.ValidationMessageFor(model => model.Comments)
-    </div>
+    </div>*@
 
     <div class="form-group">
         <input type="submit" value="Create" class="btn btn-primary" />
