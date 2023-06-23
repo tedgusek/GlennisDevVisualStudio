@@ -1,0 +1,43 @@
+﻿@model RecipeShare.Models.Recipe
+
+<h2>Create Recipe</h2>
+
+@using (Html.BeginForm("Create", "Recipe", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Title)
+        @Html.TextBoxFor(model => model.Title, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Title)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Instructions)
+        @Html.TextAreaFor(model => model.Instructions, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Instructions)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Image)
+        @Html.TextBoxFor(model => model.Image, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Image)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Ratings)
+        @Html.TextBoxFor(model => model.Ratings, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Ratings)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Comments)
+        @Html.TextAreaFor(model => model.Comments, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Comments)
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+        @Html.ActionLink("Cancel", "Index", null, new { @class = "btn btn-secondary" })
+    </div>
+}
