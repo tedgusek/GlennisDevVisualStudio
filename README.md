@@ -42,10 +42,13 @@ Requirements for Users:
 <br>
 Need to implement Search bar that can access recipes by keywords & ID’s
 <br>
+Need to set up authentication/ authorization of users; after authentication can assign JWTs
+<br>
+Will need to set up database of users with their info, ensure proper security measures are taken (Encryption etc)
+<br>
 
 
-
-To Do List
+Preliminary To Do List
 <br>
 
 [x] Set up ASP.NET Core Web App Template
@@ -58,7 +61,7 @@ To Do List
     <br>
 [x] Connect to SQL Server
 <br>
-[x] Use Recipe Class Model to define schema
+[ ] Define schema for tables
 <br>
 <strong>**Create Controllers and Views**
 <br>
