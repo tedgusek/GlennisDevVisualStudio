@@ -21,9 +21,9 @@ namespace RecipeShare.Models
         public string Image { get; set; }
 
         // for rating and comments of recipe
-        public double Ratings { get; set; }
+        public double RatingsAverage { get; set; }
 
-        public string Comments { get; set; }
+        //public string Comments { get; set; }
 
 
     }
