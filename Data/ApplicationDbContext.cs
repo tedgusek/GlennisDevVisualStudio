@@ -30,9 +30,9 @@ namespace RecipeShare.Data
 
                 b.Property(r => r.Image);
 
-                b.Property(r => r.Ratings);
+                b.Property(r => r.RatingsAverage);
 
-                b.Property(r => r.Comments);
+                //b.Property(r => r.Comments);
 
                 b.HasKey(r => r.RecipeId);
 
